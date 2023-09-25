@@ -1,0 +1,213 @@
+/* Common CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    margin: 100px 150px 0px 150px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+i {
+    color: #16D887;
+    margin-right: 5px;
+}
+
+/* Header CSS */
+
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-left,
+.column-right {
+    width: 50%;
+}
+
+.header-content {
+    padding: 0 100px;
+}
+
+.header-title {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-paragraph {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0;
+}
+
+.common-btn {
+    color: #005FAC;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* About Section CSS */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.about-desc {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0px;
+}
+
+.about-lists {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* My Plans */
+
+.sec-title h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.all-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+
+.all-plans h4 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.all-plans p {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Positive mindset */
+
+.positive-mindset {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.section-title h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    padding: 100px 150px 100px 150px;
+    background-color: #151414;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.footer-desc {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+
+.cta li {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+
+}
+
+.social-links img {
+    height: 30px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.right-content h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type="Email"] {
+    padding: 20px 100px 20px 20px; 
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #ffffff00;
+    display: block;
+    margin: 20px 0;
+}
